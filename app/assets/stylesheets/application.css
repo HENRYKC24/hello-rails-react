@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+
+ .app-name {
+   text-align: center;
+   color:brown;
+   font-size: 3rem;
+ }
+
+ .greetings {
+   list-style-type: none;
+   font-size: 1.5rem;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   color: rgb(12, 59, 12);
+ }
+
+ .greeting-btn {
+   display: block;
+   width: 200px;
+   margin: 40px auto;
+   text-align: center;
+   background-color: #007bff;
+   color: white;
+   height: 40px;
+   line-height: 40px;
+   font-size: 2rem;
+   font-weight: 700;
+   border-radius: 10px;
+   cursor: pointer;
+ }
